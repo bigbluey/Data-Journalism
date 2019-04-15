@@ -37,4 +37,14 @@ d3.csv("assets/data/data.csv", function(error, acsData) {
     data.healthcare = +data.healthcare;
     });
 
+    // Create Scale Functions for the Chart
+    var xLinearScale = d3.scaleLinear()
+      .domain([20, d3.max(acsData, d => d.poverty)])
+      .range([0, width]);
+
+    var yLinearScale = d3.scaleLinear()
+      .domain([0, d3.max(acsData, d => d.healthcare)])
+      .range([height, 0]);
+
+
 });
