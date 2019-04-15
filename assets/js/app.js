@@ -30,3 +30,11 @@ var chartGroup = svg.append("g")
 // Import Data from the data.csv File
 d3.csv("assets/data/data.csv", function(error, acsData) {
     if (error) throw error;
+
+    // Format/Parse the Data (Cast as Numbers)
+    acsData.forEach(function(data) {
+    data.poverty = +data.poverty;
+    data.healthcare = +data.healthcare;
+    });
+
+});
