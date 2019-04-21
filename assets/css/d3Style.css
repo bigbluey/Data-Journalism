@@ -38,14 +38,11 @@
 .chart {
   display: block;
   margin: 0;
-  background-image: url("https://www.thoughtco.com/thmb/PXxDRGtP9Ab_D0W_LAaVRyBgSUA=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/colorful-usa-map-530870355-58de9dcd3df78c5162c76dd2.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  opacity: 0.3;
 }
 
 .d3-tip {
+  position: absolute;
+  pointer-events: none!important;
   padding: 6px;
   font-size: 12px;
   line-height: 1;
