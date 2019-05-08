@@ -37,5 +37,8 @@ Include more demographics and more risk factors. Place additional labels in the 
 #### 2. Incorporate d3-tip
 
 While the ticks on the axes allow one to infer approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Add tooltips to your circles and display each tooltip with the data that the user has selected
+<<<<<<< HEAD
 
 ![](Images/obese_vs_income.png)
+=======
+>>>>>>> fb999ceea36975f829d94467b2f69f64d239d1d0
