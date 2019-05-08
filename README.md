@@ -1,5 +1,6 @@
 # Data-Journalism
 
+https://bigbluey.github.io/Data-Journalism/
 
 ## Background
 
@@ -14,9 +15,15 @@ The data set included is based on 2014 ACS 1-year estimates: [https://factfinder
 
 Create a scatter plot between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`
 
+![](Images/smokes_vs_age.png)
+
+![](Images/healthcare_vs_poverty.png)
+
 * Using D3 techniques, create a scatter plot that represents each state with circle elements. You'll code this graphic in the `app.js` file. Make sure to pull in the data from `data.csv` by using the `d3.csv` function. 
     * Include state abbreviations in the circles
     * Create and situate your axes and labels to the left and bottom of the chart
+
+![](Images/converted-raw-data_dataframe.png)
 
 
 ### Level 2: Impress the Boss
@@ -31,12 +38,4 @@ Include more demographics and more risk factors. Place additional labels in the 
 
 While the ticks on the axes allow one to infer approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Add tooltips to your circles and display each tooltip with the data that the user has selected
 
-
-### Assessment
-
-The final product will be assessed on the following metrics:
-
-* Completion of all steps in chosen level
-* Coherency of scatter plot (labels, ticks)
-* Visual attraction
-* Professionalism
+![](Images/obese_vs_income.png)
